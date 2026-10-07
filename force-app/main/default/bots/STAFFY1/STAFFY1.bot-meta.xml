@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentDSLEnabled>false</agentDSLEnabled>
+    <agentType>AgentforceEmployeeAgent</agentType>
+    <botMlDomain>
+        <label>STAFFY1</label>
+        <name>STAFFY1</name>
+    </botMlDomain>
+    <botSource>None</botSource>
+    <description>STAFFY1 - AI resource management agent for Klient PSA. Reads live capacity, surfaces open roles on In Progress projects, proposes best-fit resources with reasoning, raises conflict alerts, and creates task assignments only after explicit human approval.</description>
+    <label>STAFFY1</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>InternalCopilot</type>
+</Bot>
